@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+
+     <script>
+      document.addEventListener('click', ()=>{
+            
+    function toggle(){
+      const primaryNav = document.getElementById("primary-navigation")
+      const navToggle = document.getElementsByClassName("mobile-nav-toggle")
+      const visibility = primaryNav.getAttribute('data-visble')
+         if(visibility === 'false'){
+          primaryNav.setAttribute('data-visible', true)
+         }
+         else if(visibility=== "true"){
+          primaryNav.setAttribute('data-visible', false)
+         }
+  }
+
+      })  
+    </script> 
+
+    <!-- <script>
+      function toggle(){
+        const primaryNav = document.querySelector(".primary-navigation")
+        const navToggle = document.querySelector(".mobile-nav-toggle")
+        const visibility = primaryNav.getAttribute('data-visble')
+           if(visibility === 'false'){
+            primaryNav.setAttribute('data-visible', true)
+           }
+           else if(visibility=== "true"){
+            primaryNav.setAttribute('data-visible', false)
+           }
+    }
+    </script> -->
+
+  </body>
+</html>

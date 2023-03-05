@@ -1,0 +1,23 @@
+.download-container{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: white;
+    align-self: center;
+    background: url(https://www.lonestarblower.com/wp-content/uploads/2021/04/footer-background-global-1.jpg);
+}
+
+.ext-info{
+    color: rgb(255, 230, 2);
+    font-size: 25px;
+}
+
+.extension{
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: greenyellow;
+    padding: 10px;
+    border-radius: 20px;
+}

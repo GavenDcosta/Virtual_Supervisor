@@ -1,0 +1,114 @@
+.intro{
+    max-width: auto;
+    height: auto;
+    top: 50%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    overflow-x: hidden;
+    background: url(https://www.lonestarblower.com/wp-content/uploads/2021/04/footer-background-global-1.jpg)
+  
+
+}
+
+.two-txt{
+    padding: 0;
+    font-size: clamp(4rem, 5rem  ,9rem);
+}
+
+.one-txt{
+  font-size: clamp(3rem, 3rem  ,9rem);
+  
+}
+
+.welc{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    --gap:2rem;
+    
+}
+
+.btn1{
+    width:150px;
+    height: 40px;
+    border-radius: 30px;
+    margin-left: 40%;
+}
+
+.one-txt{
+   color: rgb(0, 0, 0);
+   margin-left: 30%;
+}
+
+.two-txt{
+  color: rgb(0, 0, 0);
+ 
+}
+
+.login-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 30px;
+  gap: 1em;
+  background: url(https://www.wallpapertip.com/wmimgs/167-1677724_technology-website-background-images-hd.jpg);
+}
+
+.btn1{
+  margin: 40px;  
+}
+
+.register-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.username{
+  font-size: 50px;
+  
+}
+
+.three-txt{
+  color: rgb(0, 0, 0);
+  margin-left: 10%;
+}
+
+@media(max-width:550px){
+  .one-txt{
+    margin-left: 0;
+    font-size: 20px;
+  }
+
+  .two-txt{
+    font-size: 25px;
+  }
+
+  .three-txt{
+    margin-left: 0;
+  }
+}
+
+form{
+  border: 2px solid black;
+  padding: 30px;
+  color: white;
+  margin-top: 40px;
+}
+
+.form-headings{
+  color: white;
+}  
+
+#regis{
+  background-color: greenyellow;
+  padding: 10;
+  color: rgb(0, 7, 13);
+}
+

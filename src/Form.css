@@ -1,0 +1,32 @@
+form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2em;
+    
+}
+
+input{
+    max-width: 130px;
+    height: 30px;
+}
+
+.Form{
+    display: flex;
+    background: url(https://www.wallpapertip.com/wmimgs/167-1677724_technology-website-background-images-hd.jpg);
+    max-width: 600px;
+    padding: 20px;
+}
+
+.form-headings{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.int{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}

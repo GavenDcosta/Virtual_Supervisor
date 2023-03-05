@@ -1,0 +1,55 @@
+.Cards-container{
+    margin-top: 50px;
+    margin-left: 30px;
+    display: flex;
+    flex: 2,2;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.big-container{
+    background-color: white;
+    max-width: 400px;
+    border-radius: 20px;
+}
+
+.big-container:hover{
+    background: url(https://www.lonestarblower.com/wp-content/uploads/2021/04/footer-background-global-1.jpg);
+    color: aliceblue;
+}
+
+@media (max-width:450px){
+    .Cards-container{
+        margin-left: 0;
+    }
+}
+
+.card-img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom: 2px solid black;
+}
+
+.crime-type{
+    border-bottom: 2px solid black;
+    padding-left: 30%;
+    font-size: 30px;
+    color: red;
+    padding-top: 0px;
+}
+
+.card-discription{
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+}
+
+.card-url{
+    padding-left: 13%;
+}
+
+footer{
+    margin-top: 40px;
+}

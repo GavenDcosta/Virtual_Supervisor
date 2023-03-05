@@ -1,0 +1,36 @@
+.error{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    align-self: center;
+    background-color: black;
+    margin-top: 100px;
+}
+
+.err{
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.errtxt{
+    font-size: larger;
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    margin-left: 70px;
+}
+
+.errstxt{
+    font-size: medium;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+
+.errsmtxt{
+    font-size: medium;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}

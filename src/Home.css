@@ -1,0 +1,170 @@
+header{
+    display: flex;
+    overflow-x: hidden;
+}
+
+
+body{
+    background: url(https://abbeysecurity.co.uk/wp-content/uploads/2018/01/Cyber-Security-Hacker.jpeg);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+.flex{
+    display: flex;
+    gap: var(--gap, 2rem);
+}
+
+.logo{
+    margin-top: 0.7rem;
+    width: 100px;
+    height:90px;
+    border-radius: 100px;
+}
+
+.primary-header{
+    align-items: cneter;
+    justify-content: space-between;
+}
+
+.children{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.children:hover{
+    color: aqua;
+    background-color: rgb(17, 152, 236);
+}
+
+.primary-navigation{
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+nav{
+    margin: 1rem;
+}
+
+.primary-navigation{
+    text-decoration: none;
+    background: hsl(0, 0%, 0% , 0.5);
+    backdrop-filter: blur(1rem);
+}
+
+@supports (backdrop-filter: blur(1rem)){
+    .primary-navigation{
+        background: hsl(0, 0%, 100% , 0.1);
+        backdrop-filter: blur(1rem);
+    }
+}
+
+.primary-navigation a > [aria-hidden="true"]{
+    font-weight: 700;
+    margin-inline-end: .5em;
+}
+
+.sr-only{
+    width: 2rem;
+    height: 2rem;
+}
+
+.hamburger{
+    width: 100%;
+}
+
+.mobile-nav-toggle{
+    display: none;
+    border: none;
+}
+
+@media (min-width:918px){
+    .primary-navigation{
+        padding: 2em;
+    }
+}
+
+@media (max-width:918px){
+    .primary-navigation{
+        flex-direction: column;
+        position: fixed;
+        z-index: 1000;
+        inset: 0 0 0 30%;
+        align-items: baseline;
+        margin-left: 20px;
+        padding: min(30vh, 10rem) 2rem;
+        --gap: 2em;
+        transform: translateX(100%);
+        transition: transform 350ms ease-out;
+    } 
+
+    .primary-navigation[data-visible='true']{
+        transform: translateX(0%);
+    }
+
+    .children{
+        color: rgb(20, 14, 195);
+        font-size: 30px;
+    }
+
+    .mobile-nav-toggle{
+        display: block;
+        padding: 0;
+        margin: 0;
+        border: 0;
+        position: absolute;
+        z-index: 9999;
+        width: 2rem;
+        height: 2rem;
+        aspect-ratio: 1;
+        top: 2rem;
+        right: 2rem;
+        background: url(image.png);
+        background-repeat: no-repeat;
+    }
+
+
+}
+
+.hamburger{
+    border: 2px solid white;
+}
+
+
+.main-body{
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+footer{
+    position: relative;
+    background: url(https://www.lonestarblower.com/wp-content/uploads/2021/04/footer-background-global-1.jpg);
+    color: rgb(15, 15, 8);
+    font-size: 20px;
+    margin-top: auto;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 30px;
+}
+
+.grand-parent{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+}
