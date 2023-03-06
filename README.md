@@ -14,7 +14,7 @@ Right now i have hard coded few websites.
 ![Screenshot (703)](https://user-images.githubusercontent.com/112816730/223182767-a437db9f-b751-4cc3-ad0f-930b7f6c4c2a.png)
 ![Screenshot (704)](https://user-images.githubusercontent.com/112816730/223182776-93445a3d-4e9b-4387-911d-f9bbd5e5b9ba.png)
 ![Screenshot (705)](https://user-images.githubusercontent.com/112816730/223183484-92a15218-504d-4349-9b82-473ac13a7abf.png)
-![Screenshot (706)]tps://user-images.githubusercontent.com/112816730/223182782-ddbfa491-9d8f-4ceb-a23e-23f9b8b387a9.png)
+![Screenshot (706)](htps://user-images.githubusercontent.com/112816730/223182782-ddbfa491-9d8f-4ceb-a23e-23f9b8b387a9.png)
 ![Screenshot (707)](https://user-images.githubusercontent.com/112816730/223182789-f6d211ca-f2de-4084-a222-4846fa0dec1a.png)
 ![Screenshot (708)](https://user-images.githubusercontent.com/112816730/223182799-a1412359-7d5e-4319-a1dd-d8293186590c.png)
 ![Screenshot (709)](https://user-images.githubusercontent.com/112816730/223182811-6de004be-ab7f-4c1c-9e77-3a8accef29cb.png)
