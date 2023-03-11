@@ -95,9 +95,9 @@ const data = fetch("http://localhost:4000/api/Virtual-Supervisor")
               fetch('https://api.emailjs.com/api/v1.0/email/send', {
                 method: 'POST',
                 body: JSON.stringify({
-                service_id: 'service_twg08ib',
-                template_id: 'template_lj6fb9f',
-                user_id: 'XovYt7O1DRpHPkYaV',
+                service_id: 'SERVICE_ID',
+                template_id: 'TEMPLATE_ID',
+                user_id: 'PUBLIC_KEY',
                 template_params: {
                   from_name: 'Virtual-Supervisor',
                   email_id: 'virtualsupervisorminiproject@gmail.com',
