@@ -1,14 +1,14 @@
 # Virtual-Supervisor-mini_project-.
 
 Mini Project website made using MERN Stack .
-will host once it is finished .
-currently i have completed 85% of this website 
 
-From this website you will be able to download our extension which will block harmful websites .
+From this website you can download our extension once logged in.
 
-The Extension is not yet completed ..I will be making a API for the extension 
-Right now i have hard coded few websites.
+I made an api using nodejs and stored data of harmful websites in it.
 
+On blocking a website the extension will send an email to me including the Name of the blocked website and the ip address of the users device .
+
+The project is 85% complete
 
 ![Screenshot (702)](https://user-images.githubusercontent.com/112816730/223182748-52806098-c83a-49fa-bcaf-fcc769243f1b.png)
 ![Screenshot (703)](https://user-images.githubusercontent.com/112816730/223182767-a437db9f-b751-4cc3-ad0f-930b7f6c4c2a.png)
