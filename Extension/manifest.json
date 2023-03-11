@@ -1,6 +1,10 @@
 {
     "manifest_version":2,
-    "name":"Focus Mode",
+    "name":"Virtual-Supervisor",
+    "icons": {
+        "128": "sasuke.png"
+      },
+    "description":"Protect yourself from harmful websites, Improve your focus by blocking unnecessary websites, On blocking we will receive an Email including your IP address, so be careful :)",
     "version": "0.0.1",
    
 
