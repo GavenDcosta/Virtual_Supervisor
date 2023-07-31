@@ -6,9 +6,8 @@ From this website you can download our extension once logged in.
 
 I made an api using nodejs and stored data of harmful websites in it.
 
-On blocking a website the extension will send an email to me including the Name of the blocked website and the ip address of the users device .
+On blocking a website the extension will send an email to me including the Name of the blocked website and the ip address of the user .
 
-The project is 85% complete
 
 ![Screenshot (702)](https://user-images.githubusercontent.com/112816730/223182748-52806098-c83a-49fa-bcaf-fcc769243f1b.png)
 ![Screenshot (703)](https://user-images.githubusercontent.com/112816730/223182767-a437db9f-b751-4cc3-ad0f-930b7f6c4c2a.png)
